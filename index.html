@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Primera Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tama7.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="acciones" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/AM2.jpg','imagenes/a1.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-add-back-btn="Regresar" data-back-btn-theme="a">
+    <h1>BATALLA DE PUEBLA </h1>
+   </div>
+<div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>Batalla de puebla</h1>
+   <div>
+   <p>ORIGEN DE LA BATALLA DE PUEBLA
+   <br>
+   </div>
+   <div>
+ <iframe width="420" height="315" src="https://www.youtube.com/embed/6_BZYfZE7F8" frameborder="0" allowfullscreen></iframe></div>
+   </div>
+   </div>
+   
+   <div>
+   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>PERSONAJES QUE PARTICIPARON </h2>
+     </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>CONCLUSION</h2>
+      </a>
+   </li>
+     <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>4 DE MAYO </h2>
+     </a>
+   </li>
+      <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>COMO SE CELEBRA</h2>
+      </a>
+   </li>
+   </ul>
+  </div>
+<div data-role="footer" align="center" data-theme="a">
+   <div>
+   <img src="imagenes/icon.png" width="46" height="46" data-position="fixed">
+   </div>
+    <div>
+    <h4>Aplicacion SIETE</h4>
+    <h4>Belen Tepoz Romero</h4>
+    </div>
+    </div>
+    </div>
+    
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>PERSONAJES QUE PARTICIPARON</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+          <div data-role="collapsible" data-content-theme="false">
+   <h1>IGNACIO ZARAGOZA</h1>
+   <div>
+   <p>El Gral. Ignacio Zaragoza (1828-1862)  nacio en Bahía del Espíritu Santo, Texas, cuando aun era territorio de México, dicho lugar hoy se llama Goliad. Pasó la mayor parte de su vida en Matamoros, Tamaulipas, y Monterrey, Nuevo León, donde realizó sus estudios. Goliad es una ciudad ubicada en el estado de Texas, EE.UU.  Sus primeros asentamientos fueron en el s XVIII alrededor de una fortaleza construida por el ejército español, Presidio Nuestra Señora de Loreto de la Bahía, ésta, junto con la Misión Nuestra Señora del Espíritu Santo de Zúñiga, fueron fortificaciones españolas, que se establecen para defender el territorio texano de invasiones francesas.  Se dice que el nombre de Goliad es un anagrama del apellido del padre de la patria mexicana, Hidalgo, omitiendo la H.El 5 de septiembre de 1862, todavía acuartelado en Puebla, el general Zaragoza contrajo tifo y falleció tres días después.. </p>
+   <br>
+   </div>
+   <div>
+    <img src="imagenes/iz.jpg" width="50%" height="50%">
+   </div>
+   </div>
+        <div data-role="collapsible" data-content-theme="false">
+   <h1>BENITO JUAREZ</h1>
+   <div>
+   <p>Hijo de Marcelino Juárez y Brígida García, matrimonio indígena de humilde condición, Benito Juárez quedó huérfano siendo niño y cursó sus primeros estudios en su pueblo natal. Tenía veinte años cuando ingresó en el Instituto de Ciencias de Oaxaca, donde se licenció en derecho. Su preocupación por la realidad social y en particular por la situación de los campesinos lo llevó a expresar sus puntos de vista liberales y a participar activamente en política.
+
+En 1831 Benito Juárez fue elegido regidor del ayuntamiento de Oaxaca y, un año después, diputado al Congreso del Estado. Era éste el primer paso de una actividad que le llevaría a ser el máximo mandatario de la nación, aunque para ello debió ascender lentamente en el escalafón político, sortear dificultades sin cuento, padecer el exilio, sufrir la cárcel, encabezar una guerra civil y atraerse la ira de numerosos enemigos. La energía con que defendió los intereses que representaba le valió en 1846 ser diputado por Oaxaca ante el Congreso de la Unión. Un año más tarde fue designado gobernador de su estado natal, cargo en el que permaneció hasta 1852. </p>
+   <br>
+   </div>
+   <div>
+    <img src="imagenes/BJ.jpg" width="50%" height="50%">
+   </div>
+   </div>
+       <div data-role="collapsible" data-content-theme="false">
+   <h1>PORFIRIO DIAZ</h1>
+   <div>
+   <p>Hace 153 años, Puebla fue escenario de una de las batallas más importantes en la historia del Ejército Mexicano.
+El 5 de mayo de 1862, el Ejército Mexicano de Oriente, bajo las órdenes del general Ignacio Zaragoza, derrotó al ejército francés que invadieron nuestro país so pretexto de cobrar algunas deudas. Uno de los héroes pocos mencionados durante ese episodio es Porfirio Díaz.
+La historia de este episodio histórico comenzó cuando a fines de 1861 habían desembarcado en nuestro territorio tropas francesas, españolas y británicas, con la intención expresa de cobrar a México una serie de deudas. 
+Españoles y británicos decidieron retirarse, pero los franceses, comandados por el general Laurencez avanzaron, creyendo que podrían derrotar al Ejército Mexicano debido a que tenían superioridad numérica: 6 mil franceses frente a 4 mil efectivos nacionales.
+“El regimiento invasor, que era en ese momento uno de los mejores en </p>
+   <br>
+   </div>
+   <div>
+    <img src="imagenes/PD.jpg" width="50%" height="50%">
+   </div>
+   </div>
+       <div data-role="collapsible" data-content-theme="false">
+   <h1>ENTRE OTROS</h1>
+   <div>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/np.jpg',1)"><img src="imagenes/p1.jpg" width="640" height="414" id="Image11"></a>
+   <p>En esta batalla participaronn otros personajes muy irrelevantes . por ejemplo el emperador Napoleon Bonaparte </p>
+   <br>
+   </div>
+   </div>
+       </div>
+       </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="imagenes/icon.png" width="46" height="46">
+   </div>
+    <div>
+    <h4>Aplicacion SIETE</h4>
+    <h4>Belen Tepoz Romero</h4>
+    </div>
+    </div>
+    </div>
+          
+       
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+           <h1>CONCLUSION</h1>
+           </div>
+            <div data-role="content" align="center">
+            <div>
+            <p>Como cada año, muchos jóvenes esperan con ansia la llegada del famoso puente del “Cinco de Mayo” y no precisamente por lo que conmemoramos, sino porque representa un “fin de semana largo” restando importancia a lo ocurrido en 1862.
+Al tratarse de momentos de diversión, a pocos les interesa hoy en día saber cuál es la historia de nuestro país, algo lamentable y que debemos inculcar en nuestra juventud. Decía Montesquieu: “Feliz el pueblo cuya historia se lee con aburrimiento”, sin embargo la historia de nuestro México, es una historia llena de pasión y de capítulos de los que debemos sentirnos orgullosos.
+El 5 de mayo es una fecha importante de la historia de nuestro país, pues representa una importante victoria mexicana con resonancia global ya que se venció al ejército más experimentado y reputado de la época.</p>
+            <!-- Start WOWSlider.com -->
+<iframe src="visor/index1.html" style="width:960px;height:340px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+            </div>
+            </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="imagenes/icon.png" width="46" height="46">
+   </div>
+    <div>
+    <h4>Aplicacion SIETE</h4>
+    <h4>Belen Tepoz Romero</h4>
+    </div>
+    </div>
+    </div>
+          
+            <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+           <h1>BATALLA DEL 4 DE MAYO</h1>
+           </div>
+            <div data-role="content" align="center">
+            <div>
+           <p> El 4 de mayo de 1862 durante la Segunda Intervención Francesa en México, en la hacienda de La Trapera los atlixquenses y elementos del ejército mexicano de la república, al mando de los Generale Antonio Carvajal y Tomas O´Horan se enfrentaron a las tropas al servicio del Segundo Imperio Mexicano comandadas por el Gral. José María Cobos y de Leonardo Márquez  compuesta de soldados conservadores mexicanos en apoyo de envió de refuerzos para llevar a cabo la Batalla de Puebla. Esta batalla culminó con una victoria republicana, debido a esto, el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar al dia siguiente a las tropas francesas del Conde de Lorencez en la batalla de Puebla.
+Por lo cual, el gobierno de Juárez consideró que sin el triunfo del 4 de Mayo en Atlixco no hubiera sido posible la victoria de la batalla de Puebla en los Fuertes de Loreto, el 5 de mayo de 1862. Por este motivo, el 20 de noviembre de 1998, el Congreso del Estado de Puebla declaró a Atlixco Heroica Ciudad.
+En 19890 debido al acervo cultural, arquitectónico y natural con el que se cuenta, es decretada como ZONA TIPICA MONUMENTAL con la finalidad de preservar este importante patrimonio, evitando así que se siga deteriorando./<p>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/a1.jpg',1)"><img src="imagenes/A.jpg" width="430" height="333" id="Image14"></a> 
+            </div>
+            </div>
+        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="imagenes/icon.png" width="46" height="46" >
+   </div>
+    <div>
+    <h4>Aplicacion SIETE</h4>
+    <h4>Belen Tepoz Romero</h4>
+    </div>
+    </div>
+    </div>
+          
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+           <h1>COMO SE CELEBRA</h1>
+           </div>
+            <div data-role="content" align="center">
+            <div>
+                <div data-role="collapsible" data-content-theme="false">
+   <h1>EN ESTADOS UNIDOS</h1>
+   <div>
+   <p>Desde estos primeros festejos, el 5 de mayo significó para los mexicanos que residian en Estados Unidos un día en que su país de origen se liberó del yugo opresor de los "extranjeros".
+Incluso adquirió un significado más fuerte que la fecha que marca el inicio de la guerra de independencia mexicana en contra del imperio español, el 16 de septiembre.
+Y es que el general Ignacio Zaragoza, quien derrotó al ejército francés en la ciudad de Puebla, nació en Texas (1829) antes de que este territorio se independizara de México y se anexara a Estados Unidos. Por eso, desde los primeros festejos los cantos y las poesías celebraban su hazaña.
+Zaragoza, el chinaco fronterizo, como lo llamó el historiador Justo Sierra, representaba al rebelde del siglo XIX. Entonces, se llamaba chinaco al liberal de tez morena que optaba por defender las causas del pueblo en contra de los hacendados, la Iglesia, y los catrines (ricos).
+También los chinacos fueron los mexicanos que se batieron contra los invasores franceses: "los chinacos, bravos, se batieron inundando de gloria la Nación", reza un canto de esos tiempos.
+Según ha estudiado Mariángela Rodríguez, en los primeros festejos del 5 de mayo en Texas, los mexicanos mostraban su deseo de libertad y autodeterminación: "fueron fiestas de obreros, de migrantes pobres y en muchos casos de revolucionarios", escribe en el libro Fronteras Fragmentadas. </p>
+<a href="http://expansion.mx/mundo/2014/05/05/por-que-en-eu-celebran-mas-el-5-de-mayo-que-en-mexico-aqui-10-datos">PARA MAS INFORMACION</a>
+   <br>
+   </div>
+   <div>
+    <img src="imagenes/EU.jpg" width="50%" height="50%">
+   </div>
+   </div>
+        <div data-role="collapsible" data-content-theme="false">
+   <h1>EN LA ACTUALIDAD EN MEXICO</h1>
+   <div>
+   <p>El desfile del 5 de mayo es una de las tradiciones más grandes de nuestra ciudad en la que se conmemora la Batalla de Puebla de 1862. En esta fiesta poblana desfilarán más de 7 mil personas, divididas entre contingente militares y civiles.
+La Batalla de Puebla tuvo lugar el 5 de mayo de 1862, durante la invasión francesa en México.  Actualmente, se celebra el ataque y defensa del Fuerte de Loreto y del Fuerte de Guadalupe, durante dicho enfrentamiento.
+El episodio histórico se considera una importante victoria mexicana con resonancia global, pues los mexicanos vencieron al ejército más experimentado de la época.
+El Desfile del 5 de Mayo, que se organiza con las Secretarías de la Defensa Nacional y de Marina, a través de la 25 Zona Militar, contará con la participación de más de seis mil personas, entre militares, actores, estudiantes, docentes, tetelenses, xochiapulcas y zacapoaxtlas.Asimismo, formarán parte de este acto el contingente de las fuerzas armadas y 18 carros alegóricos con diferentes temas, que dan cuenta de varios momentos de la historia de México.  Además, se considera  que a lo largo del recorrido, habrá más 30 mil espectadores.</p>
+   <br>
+   </div>
+   <div>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/AM2.jpg',1)"><img src="imagenes/AM.jpg" width="170" height="163" id="Image8"></a> </div>
+   </div>
+            </div>
+            </div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="imagenes/icon.png" width="46" height="46" >
+   </div>
+    <div>
+    <h4>Aplicacion SIETE</h4>
+    <h4>Belen Tepoz Romero</h4>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
